@@ -1,0 +1,130 @@
+body {
+    background-image: url("wood_grain.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+#goban {
+    font-size: 0;
+    background-image: url("goban.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0 0 0 5vw;
+    display: block;
+    height: 95vw;
+    width: 95vw;
+    padding: 2.5vw;
+    margin: 0;
+    /* background-color: purple; */
+    /* text-indent: -99999px; */
+}
+#goban .horizontal_margin {
+    /* background-color: red; */
+    display: inline-block;
+    /* width: 95vw; */
+    height: 5vw;
+}
+#goban .header {
+    /* background-color: pink; */
+    display: inline-block;
+    height: 10vw;
+}
+#goban .vertical_margin {
+    display: inline-block;
+    width: 5vw;
+}
+#goban .logo {
+    background-image: url(CUGC_logo.png);
+    background-size: 10vw;
+    width: 10vw;
+}
+#goban .title {
+    background-color: rgba(255, 255, 255);
+    /* border-radius: 50vw; */
+    border-color: black;
+    border-style: solid;
+    border-width: 0.35vw;
+    width: 69.3vw;
+    height: 9.3vw;
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#goban .column {
+    font-size: 0;
+    display: inline-block;
+    /* background-color: red; */
+    width: 95vw;
+    height: 5vw;
+    padding: 0;
+    margin: 0;
+}
+.link_section {
+    display: inline-block;
+    height: 50vw;
+    width: 25vw;
+}
+.link {
+    display: inline-flex;
+    width: 25vw;
+    height: 5vw;
+    /* background-color: red; */
+}
+.link_section a {
+    text-decoration: none;
+}
+h3 {
+    background-color: white;
+    display: inline-flex;
+    font-size: 3.8vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: left;
+    align-items: center;
+    width: 20vw;
+    padding-left: 1vw;
+    color: black;
+    border-width: 0.35vw;
+    border-style: solid;
+}
+.textbox {
+    background-color: white;
+    height: 49.3vw;
+    width: 54.3vw;
+    display: inline-flex;
+    vertical-align: top;
+    border-width: 0.35vw;
+    border-style: solid;
+}
+p {
+    font-size: 3vw;
+    margin: 1vw 2vw;
+    /* background-color: red; */
+}
+p a {
+    color: black;
+}
+
+img {
+    /* background-color: blue; */
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.show {
+    opacity: 100%;
+}
+
+.halfShow {
+    opacity: 50%;
+}
+
+.hide {
+    opacity: 0%;
+}
